@@ -15,9 +15,9 @@ WORKDIR /app
 ###########################
 
 
-#COPY . .
-RUN npm install
 COPY . .
+RUN npm install
+# COPY . .
 
 #OPTIMIZATION##############
 #RUN npm ci --omit=dev
