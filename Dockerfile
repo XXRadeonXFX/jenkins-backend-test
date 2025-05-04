@@ -9,9 +9,9 @@ WORKDIR /app
 
 
 #OPTIMIZATION##############
-COPY package*.json .
-COPY *.js .
-COPY .dockerignore .
+# COPY package*.json .
+# COPY *.js .
+# COPY .dockerignore .
 ###########################
 
 
